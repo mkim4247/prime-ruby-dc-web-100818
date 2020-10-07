@@ -3,7 +3,7 @@
 
 def prime?(int)
   if int <= 3
-    int > 1
+    
   elsif int % 2 == 0 || n % 3 == 0
     true
   
