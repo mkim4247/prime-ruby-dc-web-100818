@@ -1,13 +1,19 @@
 # Add  code here!
-# if int is less than 1, return false
 
-def prime?(int)
-  if int <= 1
-    false
-  elsif int % 2 == 0 || int % 3 == 0
-    false
-  else
-    true
-  end
-end
-
+def prime?(integer)
+  flag = true 
+  x = 2 
+  
+  if integer <= 1 
+    flag = false 
+  end 
+  
+  while x <= (integer / 2)
+    if integer % x == 0
+      flag = false 
+    end 
+    x += 1 
+  end 
+  
+  flag 
+end 
