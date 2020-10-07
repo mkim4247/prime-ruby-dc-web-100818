@@ -1,5 +1,5 @@
 # Add  code here!
-# if int is less than 1, return false and break
+# if int is less than 1, return false
 
 def prime?(int)
   if int > 1
